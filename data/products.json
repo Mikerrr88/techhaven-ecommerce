@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "UltraBook Pro 15",
+        "category": "Laptops",
+        "price": 1299.99,
+        "description": "High-performance laptop for professionals.",
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 2,
+        "name": "SmartWatch Series X",
+        "category": "Wearables",
+        "price": 299.99,
+        "description": "Stay connected with the latest health tracking.",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 3,
+        "name": "Noise-Cancelling Headphones",
+        "category": "Audio",
+        "price": 199.99,
+        "description": "Immersive sound quality with active noise cancellation.",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 4,
+        "name": "4K Mirrorless Camera",
+        "category": "Photography",
+        "price": 899.99,
+        "description": "Capture stunning photos and videos in 4K.",
+        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 5,
+        "name": "Gaming Mouse RGB",
+        "category": "Accessories",
+        "price": 59.99,
+        "description": "Precision gaming mouse with customizable RGB.",
+        "image": "https://images.unsplash.com/photo-1527814732934-94a1957a9228?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 6,
+        "name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "price": 129.99,
+        "description": "Tactile mechanical switches for the best typing experience.",
+        "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+]
