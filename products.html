@@ -14,6 +14,12 @@
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
+                <li class="cart-icon-container">
+                    <a href="cart.html" class="cart-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </li>
                 <li id="authLinks">
                     <a href="login.html">Login</a>
                     <a href="signup.html" class="btn-signup">Sign Up</a>
@@ -38,6 +44,54 @@
             </div>
         </section>
 
+        <section class="category-filter">
+            <h2>Shop by Category</h2>
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">
+                    <i class="fas fa-th"></i> All Products
+                </button>
+                <button class="category-btn" data-category="Laptops">
+                    <i class="fas fa-laptop"></i> Laptops
+                </button>
+                <button class="category-btn" data-category="Smartphones">
+                    <i class="fas fa-mobile-alt"></i> Smartphones
+                </button>
+                <button class="category-btn" data-category="Tablets">
+                    <i class="fas fa-tablet-alt"></i> Tablets
+                </button>
+                <button class="category-btn" data-category="Wearables">
+                    <i class="fas fa-watch"></i> Wearables
+                </button>
+                <button class="category-btn" data-category="Audio">
+                    <i class="fas fa-headphones"></i> Audio
+                </button>
+                <button class="category-btn" data-category="Photography">
+                    <i class="fas fa-camera"></i> Photography
+                </button>
+                <button class="category-btn" data-category="Gaming">
+                    <i class="fas fa-gamepad"></i> Gaming
+                </button>
+                <button class="category-btn" data-category="Smart Home">
+                    <i class="fas fa-home"></i> Smart Home
+                </button>
+                <button class="category-btn" data-category="Accessories">
+                    <i class="fas fa-plug"></i> Accessories
+                </button>
+            </div>
+        </section>
+
+        <div class="products-header">
+            <h2 id="categoryTitle">All Products</h2>
+            <div class="sort-filter">
+                <select id="sortSelect">
+                    <option value="default">Sort by</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="name">Name: A to Z</option>
+                </select>
+            </div>
+        </div>
+
         <div class="products-grid" id="productsGrid">
             <!-- Products will be loaded here via JavaScript -->
         </div>
@@ -53,6 +107,7 @@
 
     <script src="js/auth.js"></script>
     <script src="js/search.js"></script>
+    <script src="js/cart.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
