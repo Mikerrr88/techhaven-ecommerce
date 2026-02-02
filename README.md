@@ -42,5 +42,3 @@ ecommerce-project/
     ├── cart.md             # Detailed documentation on shopping cart
     └── categories.md       # Detailed documentation on categories and filtering
 ```
-
-
