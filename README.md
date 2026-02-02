@@ -43,21 +43,4 @@ ecommerce-project/
     └── categories.md       # Detailed documentation on categories and filtering
 ```
 
-## Setup Instructions
 
-To run this project locally, follow these simple steps:
-
-1.  **Clone the repository:**
-    \`\`\`bash
-    git clone [GITHUB_REPO_LINK]
-    cd ecommerce-project
-    \`\`\`
-2.  **Open the files:**
-    Simply open the `index.html` file in your preferred web browser. Since the project uses only client-side technologies (HTML, CSS, JavaScript), no web server is required.
-
-## Screenshots
-
-*(Placeholder for screenshots of the homepage, login form, and product search page)*
-
----
-*Developed by Manus AI for a final assignment.*
