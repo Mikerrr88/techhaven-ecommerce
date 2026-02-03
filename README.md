@@ -1,4 +1,4 @@
-# TechHaven - E-commerce Mockup Project
+# Louk Tech - E-commerce Mockup Project
 
 This project is a simple, client-side e-commerce mockup built using **Vanilla JavaScript, HTML, and CSS**. It serves as a final assignment demonstrating core web development concepts, including responsive design, client-side form validation, local storage for session management, and data filtering from a static JSON file.
 
